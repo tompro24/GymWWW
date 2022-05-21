@@ -66,7 +66,7 @@
                     header .hero-img {
                         position: relative;
                         height: 80vh;
-                        background-image: url('/img/beginner.jpg');
+                        background-image: url('../img/beginner.jpg');
                         background-position: center;
                         background-size: cover;
                         background-attachment: fixed;

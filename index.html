@@ -8,7 +8,7 @@
     <title>GymApp</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/ce20aee681.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,22 +24,21 @@
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" href="#home">Home</a>
                     <a class="nav-link" href="#aboutus">O nas</a>
-                    <a class="nav-link" href="#account-profil">Twoje-id</a>
                     <a class="nav-link" href="#training-plan">Strefa Treningu</a>
-
-
-                    <a class="nav-link" href="#result">Ciekawostki</a>
-                    <a class="nav-link" href="#media">Kontakt</a>
+                    <a class="nav-link" href="#media">Social-Media</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                    <a class="nav-link account-id" href="account.html" target="_blank">Twoje-id</a>
                 </div>
             </div>
         </div>
     </nav>
     <header id="home">
-        <div class="hero-img">
-            <div class="hero-shadow"></div>
-            <div class="hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="200"><span>Witaj</span> <span>w</span> <span class="main-color ">Gym</span><span>App</span></h1>
-                <p data-aos="fade-up" data-aos-delay="400">Zbuduj z nami swoją formę</p>
+        <div class="header-img">
+            <div class="header-shadow"></div>
+            <div class="header-text">
+                <h1 data-aos="fade-up" data-aos-delay="200">
+                    <span>Witaj</span> <span>w</span> <span class="main-color">Gym</span><span>App</span></h1>
+                <p>Zbuduj z nami swoją formę</p>
 
             </div>
 
@@ -47,87 +46,56 @@
         </div>
     </header>
     <section id="aboutus" class="aboutus ">
-        <div class="container">
-            <div class="row">
-                <div class="aboutus-card d-flex justify-content-center ">
-                    <div class="aboutus-shadow"></div>
-
-                    <div class="aboutus-text">
-                        <h1 data-aos="fade-up" data-aos-delay="200"><span>O</span> <span class="main-color">nas</span></h1>
-                        <button><i  class="fa-brands fa-readme"></i></button>
-                        <div class="aboutus-info">
-                            <p>The first mobile app for people of all skill levels who want to undertake workouts based on plans prepared by our qualified specialists. Be fit and start your adventure with GymApp. Good luck Team GymApp</p>
-                        </div>
-                    </div>
 
 
+        <div class="aboutus-card d-flex ">
+            <div class="aboutus-shadow"></div>
+            <div class="aboutus-text">
+                <h1 data-aos="fade-up" data-aos-delay="200"><span>O</span> <span class="main-color ">nas</span></h1><button><i  class="fa-brands fa-readme"></i></button>
+
+                <div class="aboutus-info">
+                    <p>The first mobile app for people of all skill levels who want to undertake workouts based on plans prepared by our qualified specialists. Be fit and start your adventure with GymApp. Good luck Team GymApp</p>
                 </div>
+
+
 
             </div>
-    </section>
-    <section id=account-profil class="account py-4 ">
-        <div class="container">
-
-            <div class="row justify-content-center ">
-                <div class="account-text">
-                    <h1 data-aos="fade-up" data-aos-delay="200"><span>Account</span><br> <span class="main-color"> Pro</span><span>file</span></h1>
 
 
-                </div>
-                <div class="col ">
-                    <div class="col ">
-                        <input type="text" class="form-control" maxlength="250" placeholder="Name" aria-label="Name">
-                    </div>
-                    <div class="col ">
-                        <input type="number" class="form-control" max="200" placeholder="Weight(kg)" aria-label="Weight">
-                    </div>
-                    <div class="col ">
-                        <input type="text" class="form-control" placeholder="Height(cm)" aria-label="Height">
-                    </div>
-                    <div class="col ">
-                        <input type="text" class="form-control" placeholder="Age" aria-label="Age">
-                    </div>
-                    <select class="form-select form-select-sm col form-control" aria-label=".form-select-sm example">
-                        <option selected>Training intensity</option>
-                        <option value="1">1-2 per week</option>
-                        <option value="2">2-4 per week</option>
-                        <option value="3">4&more per week</option>
-                      </select>
-                </div>
-            </div>
 
     </section>
-    <section id="training-plan" class="training-plan">
-        <div class="card">
+
+    <section id="training-plan" class="training-plan py-3">
+        <div class="training-card">
             <h3>Beginners</h3>
-            <div class="img one"></div>
-            <div class="text text-one">
+            <div class="training-img training-img-one"></div>
+            <div class="train-text train-text-one ">
                 <h2>For Beginners</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nulla quaerat, magni est porro consectetur iusto placeat architecto molestiae obcaecati.
 
-                    <a href="/main.html" class="more-begin-text" target="_blank">[more]</a>
+                    <a href="/main.html " class="more-begin-text " target="_blank ">[more]</a>
                 </p>
             </div>
 
 
         </div>
-        <div class="card">
+        <div class="training-card ">
             <h3>Semi-Pro</h3>
-            <div class="img two"></div>
-            <div class="text text-two">
+            <div class="training-img training-img-two "></div>
+            <div class="train-text train-text-two ">
                 <h2>Semi-Professjonal</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nulla quaerat, magni est porro consectetur iusto placeat architecto molestiae obcaecati.</p>
-                <a href="/main-semi.html" class="more-begin-text" target="_blank">[more]</a>
+                <a href="/main-semi.html " class="more-begin-text " target="_blank ">[more]</a>
             </div>
 
 
         </div>
 
 
-        <div class="card">
+        <div class="training-card ">
             <h3>Pro</h3>
-            <div class="img three"></div>
-            <div class="text text-three">
+            <div class="training-img training-img-three "></div>
+            <div class="train-text train-text-three ">
                 <h2>Professjonal</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nulla quaerat, magni est porro consectetur iusto placeat architecto molestiae obcaecati.</p>
             </div>
@@ -135,31 +103,31 @@
 
         </div>
     </section>
-    <section id="media" class="media py-5 ">
-        <div class="media-shadow"></div>
-        <div class="container">
-            <div class="row  text-center mx-1 justify-content-center">
-                <div class="col-lg-3 col-md-12">
-                    <div class="media-box">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <section id="media " class="media  ">
+        <div class="media-shadow "></div>
+        <div class="container ">
+            <div class="row text-center justify-content-center ">
+                <div class="col-lg-3 col-md-12 ">
+                    <div class="media-box ">
+                        <a href=" "><i class="fa-brands fa-facebook "></i></a>
                     </div>
 
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="media-box">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="media-box ">
+                        <a href=" "><i class="fa-brands fa-instagram "></i></a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="media-box">
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="media-box ">
+                        <a href=" "><i class="fa-brands fa-twitter "></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="media-box">
-                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="media-box ">
+                        <a href=" "><i class="fa-brands fa-tiktok "></i></a>
 
                     </div>
                 </div>
@@ -168,10 +136,50 @@
 
 
     </section>
+    <section id="contact " class=" contact ">
+        <div class="container ">
+            <div class="contact-us row text-center justify-content-center ">
+                <div class="col-md-6 col-xl-4 ">
+                    <div class="contact_item ">
+                        <h2>Dane adresowe</h2>
+                        <div class=" underline "></div>
+                        <p>GymApp Sp z o.o.</p>
+                        <p>Ul. Sportowa 23/24</p>
+                        <p>51-110 Wrocław</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-xl-4 ">
+
+                    <div class="contact_item ">
+                        <h2>Kontakt</h2>
+                        <div class="underline "></div>
+                        <p>tel: 050 505 050</p>
+                        <p>email: gymapp@mail.com</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-xl-4 ">
+
+                    <div class="contact_item ">
+                        <h2>Współpraca</h2>
+                        <div class="underline "></div>
+                        <p>Olimp nutriction</p>
+                        <p>Polski Związek Treningu Siłowego</p>
+                        <p>4f-sportwear</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
     <footer class="bg-dark py-4 text-center ">&copy 2022 WrocLove | GymApp</footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
 
 </html>
