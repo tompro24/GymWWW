@@ -35,29 +35,33 @@
             <div class="row justify-content-center ">
 
                 <div class="col ">
-                    <div class="col ">
-                        <input type="text" class="form-control" maxlength="250" placeholder="Name" aria-label="Name">
+                    <div id="col" class="col ">
+                        <input id="name" type="text" class="form-control" maxlength="250" placeholder="Name" aria-label="Name">
                     </div>
-                    <div class="col ">
-                        <input type="number" class="form-control" max="200" placeholder="Weight(kg)" aria-label="Weight">
+                    <div id="col" class="col ">
+                        <input id="weight" type="number" class="form-control" max="200" placeholder="Weight(kg)" aria-label="Weight">
                     </div>
-                    <div class="col ">
-                        <input type="text" class="form-control" placeholder="Height(cm)" aria-label="Height">
+                    <div id="col" class="col ">
+                        <input id="height" type="text" class="form-control" placeholder="Height(cm)" aria-label="Height">
                     </div>
-                    <div class="col ">
-                        <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+                    <div id="col" class="col ">
+                        <input id="age" type="text" class="form-control" placeholder="Age" aria-label="Age">
                     </div>
-                    <select class="form-select form-select-sm col form-control" aria-label=".form-select-sm example">
+                    <select id="train_select" class="form-select form-select-sm col form-control" aria-label=".form-select-sm example">
                         <option selected>Training intensity</option>
                         <option value="1">1-2 per week</option>
                         <option value="2">2-4 per week</option>
                         <option value="3">4&more per week</option>
                       </select>
+                    <form id="submit" action="/index.html">
+
+                        <input type="submit" class="submit" value="Submit">
+                    </form>
                 </div>
             </div>
 
     </section>
-
+    <script src="/script/script.js"></script>
 </body>
 
 </html>
