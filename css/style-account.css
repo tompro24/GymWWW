@@ -1,6 +1,6 @@
 .bounce-text {
-    -webkit-animation: bounce-text 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: bounce-text 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: bounce-text 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: bounce-text 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bounce-top {
@@ -268,7 +268,7 @@ h2 {
     background-color: black;
     color: white;
     border: 1px solid rgba(46, 222, 10, 0.8);
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .submit:hover {
@@ -281,4 +281,11 @@ h2 {
     margin-top: 30px;
     animation-delay: 3s;
     animation: bounce-top 3s infinite;
+}
+
+.wrong_text {
+    display: none;
+    padding: 10px 20px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 5px;
 }
